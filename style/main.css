@@ -33,6 +33,7 @@ header p {
 .recipe-box {
     width: 720px;
     margin: 0 auto;
+    margin-bottom: 60px;
     display: grid;
     grid-template-columns: 288px 288px;
     grid-template-rows: 188px 188px 188px;
@@ -54,4 +55,16 @@ header p {
 
 .recipes-wrapper a:hover {
     color: #757373;
+}
+
+.my-info {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
